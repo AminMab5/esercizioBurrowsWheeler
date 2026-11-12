@@ -11,5 +11,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
     risposta = client.recv(1024).decode()
 
     print("La trasformata di Burrows Wheeler della parola", messaggio, "è:", risposta)
-    
-    
